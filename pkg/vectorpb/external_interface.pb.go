@@ -2080,7 +2080,7 @@ func (c *externalInterfaceClient) UserAuthentication(ctx context.Context, in *Us
 
 func (c *externalInterfaceClient) BatteryState(ctx context.Context, in *BatteryStateRequest, opts ...grpc.CallOption) (*BatteryStateResponse, error) {
 	out := new(BatteryStateResponse)
-	err := c.cc.Invoke(ctx, "/Anki.Vector.external_interface.ExternalInterface/BatteryState", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/v1/battery_state", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -3815,7 +3815,7 @@ func _ExternalInterface_BatteryState_Handler(srv interface{}, ctx context.Contex
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/Anki.Vector.external_interface.ExternalInterface/BatteryState",
+		FullMethod: "/v1/battery_state",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(ExternalInterfaceServer).BatteryState(ctx, req.(*BatteryStateRequest))
