@@ -4,7 +4,8 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	sdk_wrapper "github.com/fforchino/vector-go-sdk/pkg/sdk-wrapper"
+
+	sdk_wrapper "github.com/kirillgrishin-tech/vector-go-sdk/pkg/sdk-wrapper"
 )
 
 func main() {

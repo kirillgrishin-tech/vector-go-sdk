@@ -43,7 +43,7 @@ Please see the cmd/examples directory for usage examples.
   - TriggerWakeWord() to trigger a voice input prompt on Vector
 - Added oskr.proto / oskr.pb.go, oskr_grpc.pb.go to allow communication with a custom grpc server to be run on OSKR
   See an example in examples/navigator, this needs to be used in conjunction with the server counterpart that you can
-  find here: https://github.com/fforchino/vector-go-sdk-oskr-extensions
+  find here: https://github.com/kirillgrishin-tech/vector-go-sdk-oskr-extensions
 
 +***RELEASE_ALPHA_20***
 - Improved TTS support. Added custom voice server that provides custom voices from different providers 
@@ -104,7 +104,7 @@ CODE REFACTORING aimed at:
 Forgive me for the very quick description, I will soon document all properly in a wiki. The important thing is
 that the GO SDK the way it is now is ready for the integration with Wirepod. Hooray!
 Remember to get the updated version:
-go get -u github.com/fforchino/vector-go-sdk/pkg/sdk-wrapper
+go get -u github.com/kirillgrishin-tech/vector-go-sdk/pkg/sdk-wrapper
 
 ***RELEASE_ALPHA_06***
 - Image functions

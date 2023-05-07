@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fforchino/vector-go-sdk/pkg/vector"
-	"github.com/fforchino/vector-go-sdk/pkg/vectorpb"
+	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vector"
+	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
 )
 
 type SDKConfigData struct {

@@ -4,9 +4,10 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	sdk_wrapper "github.com/fforchino/vector-go-sdk/pkg/sdk-wrapper"
-	"github.com/fforchino/vector-go-sdk/pkg/vectorpb"
 	"time"
+
+	sdk_wrapper "github.com/kirillgrishin-tech/vector-go-sdk/pkg/sdk-wrapper"
+	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
 )
 
 func main() {

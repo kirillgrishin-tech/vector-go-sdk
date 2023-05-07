@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"flag"
-	sdk_wrapper "github.com/fforchino/vector-go-sdk/pkg/sdk-wrapper"
 	"image/color"
+
+	sdk_wrapper "github.com/kirillgrishin-tech/vector-go-sdk/pkg/sdk-wrapper"
 )
 
 func main() {

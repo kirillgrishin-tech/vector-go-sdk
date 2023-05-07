@@ -1,7 +1,7 @@
 package sdk_wrapper
 
 import (
-	"github.com/fforchino/vector-go-sdk/pkg/vectorpb"
+	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
 )
 
 /* Animationnames on Vector 1.8

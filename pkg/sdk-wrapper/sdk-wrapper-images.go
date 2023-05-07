@@ -4,14 +4,15 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/fforchino/vector-go-sdk/pkg/vectorpb"
-	"github.com/fogleman/gg"
-	"github.com/nfnt/resize"
 	"image"
 	"image/color"
 	"image/gif"
 	"os"
 	"time"
+
+	"github.com/fogleman/gg"
+	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
+	"github.com/nfnt/resize"
 )
 
 const IMAGE_TRANSITION_NONE = 0

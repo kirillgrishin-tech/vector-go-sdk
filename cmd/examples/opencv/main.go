@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	sdk_wrapper "github.com/fforchino/vector-go-sdk/pkg/sdk-wrapper"
 	"image"
 	"image/color"
 	"image/jpeg"
@@ -19,6 +18,8 @@ import (
 	"os"
 	"os/exec"
 	"time"
+
+	sdk_wrapper "github.com/kirillgrishin-tech/vector-go-sdk/pkg/sdk-wrapper"
 )
 
 func main() {

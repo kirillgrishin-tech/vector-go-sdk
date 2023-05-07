@@ -7,15 +7,16 @@
 package sdk_wrapper
 
 import (
-	"github.com/bregydoc/gtranslate"
-	"github.com/fforchino/vector-go-sdk/pkg/vectorpb"
-	htgotts "github.com/hegedustibor/htgo-tts"
-	"github.com/hegedustibor/htgo-tts/handlers"
-	"github.com/hegedustibor/htgo-tts/voices"
 	"net/url"
 	"os"
 	"path"
 	"strings"
+
+	"github.com/bregydoc/gtranslate"
+	htgotts "github.com/hegedustibor/htgo-tts"
+	"github.com/hegedustibor/htgo-tts/handlers"
+	"github.com/hegedustibor/htgo-tts/voices"
+	"github.com/kirillgrishin-tech/vector-go-sdk/pkg/vectorpb"
 )
 
 const LANGUAGE_ENGLISH = voices.English
